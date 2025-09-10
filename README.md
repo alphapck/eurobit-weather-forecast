@@ -26,7 +26,7 @@ This project demonstrates API integration, data processing, and front-end develo
 -----------------
 
 ## How It Works
-i. User selects a city from drpdown,
+i. User selects a city from dropdown,
 ii. The app retrieves the latitude and longitude from the CSV file,
 iii. A fetch request is sent to the 7Timer API: http://www.7timer.info/bin/api.pl?lon={lon}&lat={lat}&product=civil&output=json
 iv. The API returns a JSON response containing weather data,
